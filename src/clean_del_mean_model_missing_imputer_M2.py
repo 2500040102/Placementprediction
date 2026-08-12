@@ -1,29 +1,5 @@
 import pandas as pd
 
-
-# ============================================================
-# PLACEMENT PREDICTION DATASET
-# HANDLING MISSING VALUES USING PANDAS ONLY
-#
-# Techniques:
-# 1. Deletion
-# 2. Mean Imputation
-# 3. Median Imputation
-# 4. Model-Based Imputation
-# 5. Missing Indicator Features
-#
-# Original dataset is NOT modified.
-# All results are stored in ONE CSV file.
-# ============================================================
-
-
-
-
-# ------------------------------------------------------------
-# 1. READ DATASET
-# ------------------------------------------------------------
-
-
 input_file = "C:/Users/Dell/PycharmProjects/placement_prediction/dataset/placement_predict_50K_Raw.csv"
 output_file = "C:/Users/Dell/PycharmProjects/placement_prediction/dataset/clean_del_mean_model_M2.csv"
 
